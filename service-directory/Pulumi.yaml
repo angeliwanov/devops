@@ -1,0 +1,7 @@
+name: service-directory
+runtime: nodejs
+description: (A minimial AWS Typescript Plumi program) Centralized automation for internal services.
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript

@@ -1,0 +1,13 @@
+{
+  "ServiceName": "devops-course",
+  "ServiceType": "frontend",
+  "Dockerfile": {
+    "PreInstallCommands": [
+      "COPY myfile myfil"
+    ],
+    "InstallCommands": "yarn install",
+    "PostInstallCommands": [
+      "Run yay!"
+    ]
+  }
+}
